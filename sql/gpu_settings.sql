@@ -1,6 +1,6 @@
 set tidb_mem_quota_query = 343597383681;
 
-set tidb_cura_chunk_size = 4100000;
+set tidb_cura_chunk_size = 4 * 1024 * 1024;
 set tidb_enable_cura_exec = 1;
 set tidb_cura_support = 127;
 set tidb_cura_concurrent_input_source = 0;
